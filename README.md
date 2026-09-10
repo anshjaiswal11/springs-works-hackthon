@@ -96,30 +96,6 @@ An HTTP integration suite is also included:
 npm run test:integration
 ```
 
-## Project structure
-
-```text
-.
-├── data.js
-├── handlers.js
-├── isolation.js
-├── pricing.js
-├── server.js
-├── public/
-│   ├── app.js
-│   ├── app-logic.js
-│   ├── index.html
-│   ├── report-widget.js
-│   └── style.css
-├── test/
-│   ├── api-unit.test.js
-│   ├── api.integration.test.js
-│   └── ui-logic.test.js
-├── TEST_CASES.md
-├── my-bug-report.md
-└── README.md
-```
-
 ## Notes
 
 `/api/reset`, `/spec`, `/openapi.json`, authentication, isolation, and the reporting widget remain available for the challenge workflow. The `/spec` page reads this README so the fixed behavior is documented in-app.
